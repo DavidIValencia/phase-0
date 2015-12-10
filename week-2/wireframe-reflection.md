@@ -1,2 +1,2 @@
-!(imgs/wireframe-blog-index.png)
-!(imgs/wireframe-index.png)
+![](imgs/wireframe-blog-index.png)
+![](imgs/wireframe-index.png)
