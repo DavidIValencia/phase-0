@@ -124,6 +124,10 @@ html {
   font-size: 1.2em;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .smallinc {
   font-size: .75em;
 }
@@ -133,12 +137,12 @@ html {
 }
 
 .ulborder {
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #9a9a9a;
   padding: 0em 0em 3.5em 0em;
 }
 
 .border {
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #9a9a9a;
   padding: 0em 0em 1em 0em;
 }
 
