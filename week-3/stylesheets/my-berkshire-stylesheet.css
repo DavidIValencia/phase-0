@@ -163,3 +163,25 @@ font-size: .8em;
 .footer {
   font-size: .25em;
 }
+
+/*
+-What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+It is important to be able contextualize the location of the html file so that it is easy to determine the location of the CSS file in relation.  Making sure all of the pages of a website are in similar folders within the repository is one way to organize it so that you can copy and paste the link from html file to html file.
+
+-What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+I attempted to make almost everything on the page a float, and then tried to position each section piece by piece all the way down the page.  Using clear was vital to doing this.  I also played around with different padding sizes to move the objects on the page.
+
+-What CSS did you use to modify the element style (like size, color, etc.)
+
+I used both classes and section modifiers.  In the future, I think it is better to just stick with classes as modifying an entire tag could lead to unexpected consequences.
+
+-Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+
+I essentially only used classes on this project.  I didn't really see the point of using IDs on this challenge because any one-off modification I had to do could easily be done with a span and a class.  I think I would use ids in the future if I needed to edit something drastically which already had several layers of CSS applied.
+
+-When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+I think that the code on the actual site was cleaner in a few ways.  For one, the objects were positioned on the page in much greater detail on the actual site.  The one thing I thought my site did well was having floats instead of the table for the links.
+*/
