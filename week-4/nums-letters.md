@@ -50,4 +50,4 @@ This was a good challenge.  I was a bit unsure in the sepcificity of some of the
 
 <a href="defining-variables.rb">Defining Variables</a>
 
-<a href="simple-string.rb">Simple String</a>
+<a href="simple-string.rb">Simple-String</a>
