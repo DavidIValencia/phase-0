@@ -45,3 +45,9 @@ Local variables are one word lines of text written within Ruby.  If one wants to
 #How was this challenge? Did you get a good review of some of the basics?
 
 This was a good challenge.  I was a bit unsure in the sepcificity of some of the directions, but I found that it wasn't too hard to work out what would pass the tests.  I had a good review of the basics, it's good to go back and review everything again because it's all so new.
+
+<a href="basic.math.rb"></a>
+
+<a href="defining-variables.rb"></a>
+
+<a href="simple-string.rb"></a>
