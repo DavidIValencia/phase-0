@@ -40,7 +40,7 @@ What was confusing about this material? What made sense?
 I don't really think there was that much confusing material this week.  This really just served as a good review of the stuff we covered prior to our interview with DBC.
 
 https://github.com/USCForever/phase-0/blob/master/week-4/define-method/my_solution.rb
-https://github.com/[USCForever]/phase-0/blob/master/week-4/address/my_solution.rb
-https://github.com/[USCForever]/phase-0/blob/master/week-4/math/my_solution.rb
+https://github.com/USCForever/phase-0/blob/master/week-4/address/my_solution.rb
+https://github.com/USCForever/phase-0/blob/master/week-4/math/my_solution.rb
 =end
 
