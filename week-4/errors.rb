@@ -81,90 +81,116 @@
 
 # --- error -------------------------------------------------------
 
+=begin
 def cartman_says(offensive_message)
   puts offensive_message
 end
 
 cartman_says
+=end
+
 
 # 1. What is the line number where the error occurs?
-#
+#    84
 # 2. What is the type of error message?
-#
+#    in 'cartman_says'
 # 3. What additional information does the interpreter provide about this type of error?
-#
+#    wrong number of arguments (0 for 1)
 # 4. Where is the error in the code?
-#
+#    cartman_says is being called with no arguments
 # 5. Why did the interpreter give you this error?
-#
+#    The interpreter is trying to puts offensive message, however, since this has not been defined, the interpreter does not know what to do.
 
 
 
 # --- error -------------------------------------------------------
 
+=begin
 def cartmans_lie(lie, name)
   puts "#{lie}, #{name}!"
 end
 
 cartmans_lie('A meteor the size of the earth is about to hit Wyoming!')
+=end
 
 # 1. What is the line number where the error occurs?
-#
+#    108
 # 2. What is the type of error message?
-#
+#    in 'cartmans_lie'
 # 3. What additional information does the interpreter provide about this type of error?
-#
+#    wrong number of arguments (1 for 2)
 # 4. Where is the error in the code?
-#
+#    When the method is called, it is called with only one argument instead of 2
 # 5. Why did the interpreter give you this error?
-#
+#    The interpreter is trying to call the method and can only find 1 argument even though the method requires 2 to function.
 
 # --- error -------------------------------------------------------
 
+=begin
 5 * "Respect my authoritay!"
+=end
 
 # 1. What is the line number where the error occurs?
-#
+#    129
 # 2. What is the type of error message?
-#
+#    in '*'
 # 3. What additional information does the interpreter provide about this type of error?
-#
+#    String can't be coerced into Fixnum
 # 4. Where is the error in the code?
-#
+#    5 is trying to be multiplied by a string, which is not something that is correct in Ruby syntax
 # 5. Why did the interpreter give you this error?
-#
+#    The interpreter is trying to multiply the integer, but it is not given another integer to complete the multiplication.
 
 # --- error -------------------------------------------------------
 
+=begin
 amount_of_kfc_left = 20/0
+=end
 
 
 # 1. What is the line number where the error occurs?
-#
+#    146
 # 2. What is the type of error message?
-#
+#    in '/'
 # 3. What additional information does the interpreter provide about this type of error?
-#
+#    divided by 0
 # 4. Where is the error in the code?
-#
+#    The division by 0
 # 5. Why did the interpreter give you this error?
-#
+#    The interpreter cannot process dividing by 0
 
 # --- error -------------------------------------------------------
 
+=begin
 require_relative "cartmans_essay.md"
+=end
 
 # 1. What is the line number where the error occurs?
-#
+#    164
 # 2. What is the type of error message?
-#
+#    in 'require relative'
 # 3. What additional information does the interpreter provide about this type of error?
-#
+#    cannot load such file
 # 4. Where is the error in the code?
-#
+#    The error is in trying to require a file that does not exist
 # 5. Why did the interpreter give you this error?
-#
+#    The interpreter attempted to locate the file within the directory, did not find it, and then prompted the user with the error message.
 
 
 # --- REFLECTION -------------------------------------------------------
 # Write your reflection below as a comment.
+
+=begin
+Which error was the most difficult to read?
+I feel as though they were all pretty easy to read.  I never knew that when I got an error message that it was so easy to interpret what was going wrong.
+
+How did you figure out what the issue with the error was?
+I looked at the line for each error first and tried to see if I could tell immediately what was going wrong.  If I could not, I would look at the additional information for the error message.
+
+Were you able to determine why each error message happened based on the code?
+Yes, some of the errors were obvious to see before I even ran the file.
+
+When you encounter errors in your future code, what process will you follow to help you debug?
+I will look at the line number first to see if there is an obvious flaw in the code at that point.  If I can't easily spot the problem, I will go more into the error message and try and find what is going wrong with the code from there.  If I still can't figure out the error, I will google the error message to see what could be causing the problem.
+
+=end
