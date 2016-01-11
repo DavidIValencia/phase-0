@@ -1,8 +1,7 @@
 # Calculate the mode Pairing Challenge
 
-# I worked on this challenge [by myself, with: ]
-
-# I spent [] hours on this challenge.
+# I worked on this challenge [with: Dong Wook Seo]
+# I spent 1 hours on this challenge.
 
 # Complete each step below according to the challenge directions and
 # include it in this file. Also make sure everything that isn't code
@@ -68,3 +67,22 @@ end
 
 
 # 4. Reflection
+=begin
+
+Which data structure did you and your pair decide to implement and why?
+
+We used a hash because we wanted to be able to assign a value (the number of times an element appear) to the different keys (elements).  This was a good method of keeping track of the times an element exists.
+
+Were you more successful breaking this problem down into implementable pseudocode than the last with a pair?
+
+I was a bit more successful this time around.  I think the real key is to go back to the pseudocode if something is not working.  It is easier to organize yourself if you don't have to think on your feet.
+
+What issues/successes did you run into when translating your pseudocode to code?
+
+We were pretty successful at converting our psuedocode into actual code.  The difficult part is that we did not know the exact methods that we wanted to use for the function.  Outlining it in the pseudocode helped us look through ruby docs and find a good method quickly.
+
+What methods did you use to iterate through the content? Did you find any good ones when you were refactoring? Were they difficult to implement?
+
+We used .values.max on the hash to simplify our code.  This was very easy to implement, and is a much more elegant solution than the one we had before.
+
+=end
