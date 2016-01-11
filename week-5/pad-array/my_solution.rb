@@ -19,17 +19,56 @@
 
 
 # 1. Initial Solution
-def pad!(array, min_size, value = nil) #destructive
-  # Your code here
+
+=begin
+def pad!(array, min_size, value = nil)
+  if array.length >= min_size
+    return array
+  else
+    (min_size - array.length).times do array << value
+    end
+  end
+  return array
 end
 
-def pad(array, min_size, value = nil) #non-destructive
-  # Your code here
+def pad(array, min_size, value = nil)
+  new_array = []
+  array.each do |name|
+    new_array.push(name)
+  end
+  if new_array.length >= min_size
+    return new_array
+  else
+    (min_size - new_array.length).times do  new_array.push(value)
+    end
+  end
+  return new_array
 end
+=end
 
 
 # 3. Refactored Solution
 
+def pad!(array, min_size, value = nil)
+  if array.length >= min_size
+    return array
+  else
+  array.fill(value, array.length, (min_size - array.length))
+  end
+  return array
+end
 
+def pad(array, min_size, value = nil)
+  new_array = []
+  array.each do |name|
+    new_array.push(name)
+  end
+  if new_array.length >= min_size
+    return new_array
+  else
+    new_array.fill(value, new_array.length, (min_size - new_array.length))
+  end
+  return new_array
+end
 
 # 4. Reflection
