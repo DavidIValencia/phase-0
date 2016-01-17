@@ -30,7 +30,7 @@ class Die
   end
 
   def roll
-    return labels[(rand(1..lables.length))]
+    return labels[(rand(0..(labels.length-1)))]
   end
 end
 
@@ -48,14 +48,13 @@ class Die
   end
 
   attr_reader :labels
-  number_of_sides = labels.length
 
-  def.sides
-    return number_of_sides
+  def sides
+    return labels.length
   end
 
   def roll
-    return labels[(rand(1..number_of_sides))]
+    return labels[(rand(0..(labels.length-1)))]
   end
 end
 
