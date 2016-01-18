@@ -1,14 +1,14 @@
 # Class Warfare, Validate a Credit Card Number
 
 
-# I worked on this challenge [with: ].
-# I spent [#] hours on this challenge.
+# I worked on this challenge [with: Chris].
+# I spent [1.5] hours on this challenge.
 
 # Pseudocode
 
-# Input:
-# Output:
-# Steps:
+# Input: 16 digit number
+# Output: true or false
+# Steps: Set up a class with credit card, make sure the number entered has the right length, make the characters into an array, multiply the numbers of this array, see if the sum of the characters is divisible by 10, return true or false.
 
 
 # Initial Solution
@@ -97,3 +97,18 @@ end
 
 
 # Reflection
+=begin
+
+What was the most difficult part of this challenge for you and your pair?
+
+The most difficult part of this challenge for me and my pair was moving information between all of our objects.  We chose to make two arrays and pass information between them, so it was difficult for us at times to pass through driver code.
+
+What new methods did you find to help you when you refactored?
+
+The character method and the designation of (&:to_i) for map really helped out a lot to shorten the code.  The .even? method also came in handy.
+
+What concepts or learnings were you able to solidify in this challenge?
+
+I was able to solidify my understanding of destructive and non-destructive methods as well as more practice with iteration.  I also was able to work with classes again, which is code that I really like.
+
+=end
