@@ -12,7 +12,7 @@
 
 // Bulk Up
 
-var bulkUp = function(array){
+/*var bulkUp = function(array){
    for (var i = 0; i < (array.length-1); i++) {
      // array[i].prototype.win = array[i].name + " won the " + array[i].event + "!";
      return array[i].name
@@ -25,7 +25,7 @@ var SarahHughes = {
 };
 
 bulkUp([SarahHughes]);
-console.log(SarahHughes.win)
+console.log(SarahHughes.win)*/
 
 
 
@@ -76,3 +76,15 @@ console.log(SarahHughes.win)
 
 
 // Reflection
+
+/*What JavaScript knowledge did you solidify in this challenge?
+
+I solidified a bit more of my understanding on how to add properties to objects and how to edit and modify these properties outside of editing the object itself.  I also got a bit more practice iterating over arrays in js.
+
+What are constructor functions?
+
+Constructor functions are similar to Ruby classes in that they set up properties for a variable that is called with property values as inputs.  These objects can be controlled and have these properties called on them after they are created.
+
+How are constructors different from Ruby classes (in your research)?
+
+Constructors are distinct from Ruby classes because they are merely the creators of the objects.  Object prototypes are used to edit objects, which is different in Ruby where you edit the methods within the class itself. */
