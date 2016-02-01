@@ -176,18 +176,16 @@ for (var v in votes) {
   }
 }
 
-for (var position in candidate_positions) {
-  for (var candidate in voteCount[position]) {
-    if (officers[position] === undefined) {
-      officers[position] = candidate; //candidate?
-    }
-    else if (voteCount[position][candidate] > voteCount[position[officers[position]]]) {
-      officers[position] = candidate;
-    }
+for (var candidate in voteCount.president) {
+  if (officers.president === undefined) {
+    officers.president = candidate; //candidate?
+  }
+  else if (voteCount["president"][candidate] > voteCount.president[officers["president"]]) {
+    officers.president = candidate;
   }
 }
 
-/*for (var candidate in voteCount.vicePresident) {
+for (var candidate in voteCount.vicePresident) {
   if (officers.vicePresident === undefined) {
     officers.vicePresident = candidate; //candidate?
   }
@@ -212,18 +210,28 @@ for (var candidate in voteCount.treasurer) {
   else if (voteCount["treasurer"][candidate] > voteCount.treasurer[officers["treasurer"]]) {
     officers.treasurer = candidate;
   }
-}*/
+}
 
 
 
 
 // __________________________________________
 // Reflection
+/*
 
+What did you learn about iterating over nested objects in JavaScript?
 
+I think the biggest thing I learned was the importance of using bracket notation.  It was especially important to figure out which objects were arrays and which were js objects because that was something that tripped us up for a while.
 
+Were you able to find useful methods to help you with this?
 
+I was not able to find any useful methods to help me.  Ruby docs are a lot easier to navigate through than js, and it also seems like js does not have as many easy one line solutions.
 
+What concepts were solidified in the process of working through this challenge?
+
+I think that I solidified my understanding of js a bit more.  I also got a bit more experience using assert statements and learned more about bracket notation.  This is the first time that I used for..in.. loops, and I find them to be very useful.
+
+*/
 
 // __________________________________________
 // Test Code:  Do not alter code below this line.
