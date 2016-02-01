@@ -9,7 +9,7 @@
 9. SELECT region_name FROM regions WHERE region_name LIKE '%Central%';
 10. SELECT regions.region_name, states.state_name FROM states INNER JOIN regions ON states.region_id=regions.id ORDER BY region_ID ASC;
 
-![]["./screenshot.png"]
+![]("./screenshot.png")
 
 ###What are databases for?
 

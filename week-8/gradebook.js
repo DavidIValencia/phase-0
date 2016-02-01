@@ -91,3 +91,18 @@ var average = function(scores_array) {
 
 // __________________________________________
 // Reflect
+/*
+
+What did you learn about adding functions to objects?
+
+I learned that it is best to add functions to objects within their properties.  You do so just like making a function normally, you just set a variable = to it.
+
+How did you iterate over nested arrays in JavaScript?
+
+We iterated over nested arrays in js by calling out the objects out by their indexes.  We also used while i loops in order to iterate over the arrays.
+
+Were there any new methods you were able to incorporate? If so, what were they and how did they work?
+
+I was able to use push in js for the first time, which worked how it works in Ruby.
+
+*/
