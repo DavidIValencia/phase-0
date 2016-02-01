@@ -1,8 +1,8 @@
-![]("../imgs/screenshot.png")
+<img src="./imgs/screenshot.png">
 
 This relationship is one-to-one because not all of the kids have turned 16 yet, and thus do not have their driver's license info.  This way, the id can be empty if there is no info and contain information if the kid has a driver's license.
 
-![]("../imgs/screenshot1.png")
+<img src="./imgs/screenshot1.png">
 
 ###What is a one-to-one database?
 
